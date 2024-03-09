@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to right, rgb(57, 57, 57), rgb(16, 16, 16));
+    
+}
+p{
+    color: rgb(25, 25, 182);
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+label{
+    color: white;
+}
+h1{
+    font: bold 2em "Fira Sans", sans-serif;
+    color: white;
+}
+input{
+    height: 1.5em;
+    background-color: rgb(39, 39, 39);
+}
+input, select, textarea {
+    color:aliceblue;
+}
+textarea:focus, input:focus{
+    background-color: rgb(95, 91, 91);
+}
+button{
+    font: .7em "Fira Sans", sans-serif;
+    background-color: rgb(48, 48, 48);
+    color: white;
+    height: 2.5em;
+    width: 8em;
+}
